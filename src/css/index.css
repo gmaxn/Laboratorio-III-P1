@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.layout {
+    /* nav - main - aside - footer */
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin: 2px;
+  padding: 2px;
+}
+
+
+#main-screen {
+    justify-content: center;
+    background-image: url("./../img/background.png");
+}
+
+/****************************************************************/
+
+#nav-bar {
+
+    justify-content: flex-end;
+    background-color: black;
+}
+
+#nav-bar>.nav-button {
+    color: whitesmoke;
+    margin-right:30px;
+    padding:5px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav-button:hover{
+    background-color: rgba(172, 172, 172, 0.349);
+    border-radius: 5px;
+    padding:5px;
+}
+
+#person-grid-wrapper {
+    width: 80%;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: white;
+    padding:0px;
+    margin:0x;
+    box-sizing: content-box;
+}
